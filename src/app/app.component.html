@@ -1,2 +1,7 @@
 <h1>Lista de personas</h1>
 
+<div *ngFor="let persona of personas">
+    <p>{{persona.id}}</p>
+    <p>{{persona.title}}</p>
+    <img src="{{persona.thumbnail}}" alt="">
+</div>
